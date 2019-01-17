@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9CB55F21-4A2D-4675-A5A5-09BD73B7701B}</ProjectGuid>
+    <RootNamespace>spacewar</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\..\实训资料\enemy_bullet1.bmp" />
+    <None Include="..\..\..\实训资料\PLANE.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\狮鹫.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\狮鹫子弹.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\myplane\a4-1.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\myplane\RedPlane.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\myplane\RedPlane.png" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\全民飞机大战\image\BackGround.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\BeiJi_01.png" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\BeiJi_02.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\bitmap3.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\bullet_02.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\enemybullet1.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\雷霆战机\bullet\111111111.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\雷霆战机\bullet\enemy_bullet1.bmp" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\雷霆战机\bullet\enemy_bullet1larger.bmp" />
+    <None Include="..\..\..\实训资料\小天使.bmp" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="ClassDiagram6.cd" />
+    <None Include="image\a4-1.bmp" />
+    <None Include="image\BackGround.bmp" />
+    <None Include="image\BeiJi_02.bmp" />
+    <None Include="image\BG2.bmp" />
+    <None Include="image\boss.bmp" />
+    <None Include="image\bullet_02.bmp" />
+    <None Include="image\ENEMY2.bmp" />
+    <None Include="image\enemybullet1.bmp" />
+    <None Include="image\enemy_bullet1.bmp" />
+    <None Include="image\PLANE.bmp" />
+    <None Include="image\shilter.bmp" />
+    <None Include="image\UFO.bmp" />
+    <None Include="image\乘客.bmp" />
+    <None Include="image\保护中的飞机.bmp" />
+    <None Include="image\保护膜.bmp" />
+    <None Include="image\子弹2.bmp" />
+    <None Include="image\导弹.bmp" />
+    <None Include="image\小天使.bmp" />
+    <None Include="image\小猪.bmp" />
+    <None Include="image\民航客机 - forced.bmp" />
+    <None Include="image\民航客机.bmp" />
+    <None Include="image\激光.bmp" />
+    <None Include="image\狮鹫.bmp" />
+    <None Include="image\狮鹫子弹.bmp" />
+    <None Include="image\生命架.bmp" />
+    <None Include="image\能量架.bmp" />
+    <None Include="ReadMe.txt" />
+    <None Include="resource.hm" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\spacewar.ico" />
+    <None Include="res\spacewar.rc2" />
+    <None Include="res\spacewarDoc.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\Toolbar256.bmp" />
+    <None Include="UserImages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirBus.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Baseclass.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="EnemyBullet.h" />
+    <ClInclude Include="Enemyplane.h" />
+    <ClInclude Include="Explode.h" />
+    <ClInclude Include="GameCtrl.h" />
+    <ClInclude Include="Gift.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MISSILE.h" />
+    <ClInclude Include="Passenger.h" />
+    <ClInclude Include="Pet.h" />
+    <ClInclude Include="PetBullet.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sethardlevel.h" />
+    <ClInclude Include="spacewar.h" />
+    <ClInclude Include="spacewarDoc.h" />
+    <ClInclude Include="spacewarView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AirBus.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Baseclass.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Enemybullet.cpp" />
+    <ClCompile Include="Enemyplane.cpp" />
+    <ClCompile Include="Explode.cpp" />
+    <ClCompile Include="GameCtrl.cpp" />
+    <ClCompile Include="Gift.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MISSILE.cpp" />
+    <ClCompile Include="Passenger.cpp" />
+    <ClCompile Include="Pet.cpp" />
+    <ClCompile Include="PetBullet.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="Sethardlevel.cpp" />
+    <ClCompile Include="spacewar.cpp" />
+    <ClCompile Include="spacewarDoc.cpp" />
+    <ClCompile Include="spacewarView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="spacewar.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="spacewar.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

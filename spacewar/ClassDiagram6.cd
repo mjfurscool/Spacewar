@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spacewar.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAirBus" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAACAAAAFAAAAAIBAAAAAAIAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>AirBus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBackGround" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAIAAIAAAAAAAQAAAAAAABAAAAA=</HashCode>
+      <FileName>BackGround.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBaseclass" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAAAAAAAAAAAAAAAAAAJgAABGAAQAAAAAAAAAAEAA=</HashCode>
+      <FileName>Baseclass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoss" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAAABAAAAIAAAAAAAAAAAAIAAAAACABAAAIEAA=</HashCode>
+      <FileName>Boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBullet" Collapsed="true">
+    <Position X="1.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMAAAAAAAQAQAIAAAEAAAAAAAAAAAABAAABIAA=</HashCode>
+      <FileName>Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemybullet" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQAAAAAAAQAIAAAAAAAABAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>EnemyBullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemyplane" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIBAAAAAAAAAARQIKAAEAAAAAAAAgEAABAAAAAAA=</HashCode>
+      <FileName>Enemyplane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CExplode" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAABAAAABAAIAAIAAAAACAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Explode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameCtrl" Collapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQABAAAAAAgAEAAAAAAAAAAAAAAEAAgAgCAAAQE=</HashCode>
+      <FileName>GameCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGift" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAIAAAAAAAABQAAAAAAAAABAAAA=</HashCode>
+      <FileName>Gift.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAACAAAiAAAoCEAAgAgAABQAAAAAhA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMISSILE" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAAAAAAAABAAIAAAAAAAEAAAAAAAAAAADBAAA=</HashCode>
+      <FileName>MISSILE.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPassenger" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAIAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Passenger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPet" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEAAAEAAAABAAIICAAAAAAAAAAgAAAAAAABAAA=</HashCode>
+      <FileName>Pet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPetBullet" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAgAABAAIAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>PetBullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlane" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAECACAAAAAABIBACAAAAAAAAAAAEAhAAAAEJA=</HashCode>
+      <FileName>Plane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sethardlevel" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Sethardlevel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CspacewarApp" Collapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAABQAAAAAQCAAARCAACAAA=</HashCode>
+      <FileName>spacewar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CspacewarDoc" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAACAAAgAggASggAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>spacewarDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CspacewarView" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAIBABAAAgGAAAZAGIBAsQAI1CEgAAwAIAghAAAIAAA=</HashCode>
+      <FileName>spacewarView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

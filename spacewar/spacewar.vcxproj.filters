@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\spacewar.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\spacewarDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\spacewar.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\myplane\RedPlane.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\myplane\RedPlane.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\BeiJi_01.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\BeiJi_02.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\bullet_02.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\myplane\a4-1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="resource.hm">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\雷霆战机\bullet\enemy_bullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\雷霆战机\bullet\111111111.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\全民飞机大战\image\BackGround.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\enemybullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\爆炸和子弹\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\雷霆战机 飞机大战 全民飞机大战(美术和音效资源)\雷霆战机\bullet\enemy_bullet1larger.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\PLANE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\enemy_bullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\小天使.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\狮鹫.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\实训资料\图片素材\狮鹫子弹.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\导弹.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\BeiJi_02.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\bullet_02.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\a4-1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\BackGround.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\enemybullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\PLANE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\enemy_bullet1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\小天使.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\狮鹫.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\狮鹫子弹.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\小猪.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\民航客机.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\乘客.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\子弹2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\boss.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\ENEMY2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\BG2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\民航客机 - forced.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\UFO.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\激光.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\能量架.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\生命架.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\保护膜.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\保护中的飞机.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image\shilter.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="ClassDiagram6.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="spacewar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spacewarDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spacewarView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Explode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemyplane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sethardlevel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PetBullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Baseclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MISSILE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AirBus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Passenger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="spacewar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spacewarDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spacewarView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Explode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemyplane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sethardlevel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemybullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PetBullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Baseclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MISSILE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AirBus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Passenger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gift.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="spacewar.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
